@@ -1,0 +1,1 @@
+function scrollFunction(){document.body.scrollTop>100||document.documentElement.scrollTop>100?document.getElementById("main-nav").style.height="80px":document.getElementById("main-nav").style.height="100px"}window.onscroll=function(){scrollFunction()};
