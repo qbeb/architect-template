@@ -1,1 +1,1 @@
-Free website template
+## Architect template
