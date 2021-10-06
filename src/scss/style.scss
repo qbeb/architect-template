@@ -222,6 +222,7 @@ p {
 
 .navbar-nav {
     width: 65%;
+    background-color: $dark-gray;
 }
 
 .nav-item {
@@ -332,6 +333,16 @@ form {
 .footer {
     background-color: $dark-gray;
     color: lightgray;
+    font-size: 14px;
+}
+
+.social-link {
+    color: lightgray;
+    transition: 0.2s;
+
+    &:hover {
+        color: gray;
+    }
 }
 
 //--------mobile--------
@@ -388,6 +399,11 @@ form {
         width: 90%;
     }
 
+    .navbar-nav {
+        width: 100%;
+        padding: 10px 0px 10px 5%;
+    }
+
     #gallery {
         padding-bottom: 40px;
     }
@@ -398,8 +414,14 @@ form {
         width: 165px;
         height: 165px;
     }
+
     .square-content {
         font-size: 14px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        padding: 10px 0px 10px 5%;
     }
 }
 
@@ -410,6 +432,7 @@ form {
         max-height: 200px;
         max-width: 200px;
     }
+
     .square-content {
         font-size: 16px;
     }
